@@ -1,14 +1,4 @@
-<img src="assets/banner.svg" width="100%" alt="Alexander Baranov - Android developer. A/B Apps: useful apps, thoughtful details." />
-
-<p align="center">
-  <a href="https://t.me/Alox1d"><b>Telegram ↗</b></a>
-  &nbsp; · &nbsp;
-  <a href="https://habr.com/ru/users/alox1d/"><b>Habr ↗</b></a>
-  &nbsp; · &nbsp;
-  <a href="https://habr.com/ru/companies/vk/articles/780194/"><b>My VK ID article ↗</b></a>
-</p>
-
-### Hi, I'm Alexander 👋
+## Android development
 
 Android developer working with **Kotlin**, **Jetpack Compose** and the details that make an app feel right.
 
@@ -18,18 +8,20 @@ Android developer working with **Kotlin**, **Jetpack Compose** and the details t
 
 `Kotlin` · `Java` · `Jetpack Compose` · `Coroutines / Flow` · `Room` · `Android SDK`
 
-### Apps with a story
+[Telegram](https://t.me/Alox1d) · [Habr](https://habr.com/ru/users/alox1d/) · [VK ID article](https://habr.com/ru/companies/vk/articles/780194/)
+
+### Apps
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>💬 Chatevent</h3>
+      <h3>Chatevent</h3>
       <p>A chat-shaped planner: tasks, notes, folders and a calendar in one place.</p>
       <p><b>Personal product · In development</b><br/>Kotlin · Compose · Room · Glance</p>
       <p align="center"><a href="assets/chatevent.webp"><img src="assets/chatevent.webp" width="180" alt="Chatevent Android screenshot: chats, folders and upcoming tasks, with demonstration data." /></a></p>
     </td>
     <td width="50%" valign="top">
-      <h3>📝 WordNote</h3>
+      <h3>WordNote</h3>
       <p>Notes, tasks and reminders with English voice input, OCR and my date/time parser.</p>
       <p><b>Personal Android app</b><br/>Kotlin / Java · Room · Huawei HMS</p>
       <p align="center"><a href="assets/wordnote.webp"><img src="assets/wordnote.webp" width="225" alt="WordNote Android screenshot: task lists and reminders." /></a></p>
