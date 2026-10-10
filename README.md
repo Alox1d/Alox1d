@@ -1,4 +1,4 @@
-## Android development
+<img src="assets/banner.svg" width="100%" alt="A/B Apps - Alexander Baranov. Android. С вниманием к деталям." />
 
 Android developer working with **Kotlin**, **Jetpack Compose** and the details that make an app feel right.
 
