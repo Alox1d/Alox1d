@@ -4,7 +4,7 @@ Android developer working with **Kotlin**, **Jetpack Compose** and the details t
 
 - **Now:** Android fintech at **Wildberries** - installment payments, financial calculations and reliable UI state.
 - **Previously:** **VK ID** - authentication flows and Android integration.
-- **On my workbench:** **Chatevent**, a planner where tasks live in chats.
+- **On my workbench:** **Chatevent**, a commercial planner where tasks live in chats.
 
 `Kotlin` · `Java` · `Jetpack Compose` · `Coroutines / Flow` · `Room` · `Android SDK`
 
@@ -23,13 +23,13 @@ Android developer working with **Kotlin**, **Jetpack Compose** and the details t
     <td width="50%" valign="top">
       <h3>Chatevent</h3>
       <p>A chat-shaped planner: tasks, notes, folders and a calendar in one place.</p>
-      <p><b>Personal product · In development</b><br/>Kotlin · Compose · Room · Glance</p>
+      <p><b>Commercial product · In development</b><br/>Private source · Kotlin · Compose · Room · Glance</p>
       <p align="center"><a href="assets/chatevent.webp"><img src="assets/chatevent.webp" width="180" alt="Chatevent Android screenshot: chats, folders and upcoming tasks, with demonstration data." /></a></p>
     </td>
     <td width="50%" valign="top">
       <h3>WordNote</h3>
-      <p>Notes, tasks and reminders with English voice input, OCR and my date/time parser.</p>
-      <p><b>Personal Android app</b><br/>Kotlin / Java · Room · Huawei HMS</p>
+      <p>Notes, tasks and reminders with English voice input, OCR and date/time extraction.</p>
+      <p><b>Personal Android app</b><br/>Kotlin / Java · SQLite · Huawei HMS</p>
       <p align="center"><a href="assets/wordnote.webp"><img src="assets/wordnote.webp" width="225" alt="WordNote Android screenshot: task lists and reminders." /></a></p>
       <p><a href="https://appgallery.huawei.com/app/C103198375">AppGallery ↗</a> · <a href="https://www.youtube.com/watch?v=rDJz7HMdjpE">Video demo ↗</a></p>
     </td>
@@ -41,23 +41,32 @@ Android developer working with **Kotlin**, **Jetpack Compose** and the details t
 - **Huawei Cup 2020:** winner of the **APP student category**. [Official Huawei results, March 26, 2021 ↗](https://www.huawei.ru/news/obyavleny-luchshie-razrabotchiki-mobilnykh-prilozheniy-v-ramkakh-sorevnovaniya-huawei-cup-2020/)
 - **SmartFlow: «В начале был пароль...» или новая аутентификация VK ID** - my article on Android authentication, published in the VK engineering blog on **February 22, 2024**. [Read on Habr (RU) ↗](https://habr.com/ru/companies/vk/articles/780194/)
 
-### Learning projects & experiments
+### Public Android samples
 
-A few public notebooks from my Android journey. These are learning exercises, including course-based projects; they are separate from my work at Wildberries and VK.
+Small Android samples and experiments, from custom drawing to voice recording.
 
 | Repository | What's inside |
 | :--- | :--- |
+| [vkvoicenotes](https://github.com/Alox1d/vkvoicenotes) | Voice recording and playback with Android Views, Room, Dagger, RxJava and ExoPlayer. |
+| [CustomViewTest](https://github.com/Alox1d/CustomViewTest) | Custom Android Views: Canvas drawing, bitmap shaders, XML attributes and saved state. |
 | [AndroidCore](https://github.com/Alox1d/AndroidCore) | Java/Kotlin fundamentals, concurrency, collections, Coroutines/Flow and Handler/Looper experiments. |
-| [VKNewsApp](https://github.com/Alox1d/VKNewsApp) | A learning VK news client: Compose, MVVM, Flow, Dagger, Retrofit and pagination. |
-| [ComposeAnimations](https://github.com/Alox1d/ComposeAnimations) | Course-based Compose animation exercises: state, transitions, size, shape and color. |
-| [MVI-Weather-App](https://github.com/Alox1d/MVI-Weather-App) | An unfinished learning project with MVIKotlin, Decompose, Room and Retrofit. |
+
+### Course-based learning
+
+Exercises I followed and adapted while learning Android.
+
+- [VKNewsApp](https://github.com/Alox1d/VKNewsApp) — a learning VK news client with Compose, MVVM, Flow, Dagger, Retrofit and pagination.
+- [ComposeAnimations](https://github.com/Alox1d/ComposeAnimations) — Compose animation exercises: content, size, shape, color, alpha and rotation.
+- [MVI-Weather-App](https://github.com/Alox1d/MVI-Weather-App) — an unfinished exploration of MVIKotlin, Decompose, Room and Retrofit.
 
 <details>
   <summary><b>По-русски</b></summary>
 
 Привет, я Саша. Разрабатываю Android-приложения на Kotlin. Сейчас работаю с финтехом Wildberries, раньше занимался аутентификацией в VK ID.
 
-Развиваю **Chatevent** - планировщик с задачами в формате чатов. Создал **WordNote** и библиотеку извлечения даты и времени из текста. Победил в студенческом зачёте APP на **Huawei Cup 2020**.
+Развиваю **Chatevent** как коммерческий продукт — планировщик с задачами в формате чатов. Исходники остаются закрытыми.
+
+Сделал **WordNote** — заметки и напоминания с распознаванием речи, OCR и извлечением даты и времени из текста. Победил в студенческом зачёте APP на **Huawei Cup 2020**.
 
 Люблю, когда интерфейс понятный, расчёты точные, а задача наконец переезжает в «Готово».
 
