@@ -8,7 +8,13 @@ Android developer working with **Kotlin**, **Jetpack Compose** and the details t
 
 `Kotlin` · `Java` · `Jetpack Compose` · `Coroutines / Flow` · `Room` · `Android SDK`
 
-[Telegram](https://t.me/Alox1d) · [Habr](https://habr.com/ru/users/alox1d/) · [VK ID article](https://habr.com/ru/companies/vk/articles/780194/)
+<p align="center">
+  <a href="https://t.me/Alox1d"><b>Telegram ↗</b></a>
+  &nbsp; · &nbsp;
+  <a href="https://habr.com/ru/users/alox1d/"><b>Habr ↗</b></a>
+  &nbsp; · &nbsp;
+  <a href="https://habr.com/ru/companies/vk/articles/780194/"><b>My VK ID article ↗</b></a>
+</p>
 
 ### Apps
 
