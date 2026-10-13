@@ -18,23 +18,25 @@ Android developer working with **Kotlin**, **Jetpack Compose** and the details t
 
 ### Apps
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>Chatevent</h3>
-      <p>A chat-shaped planner: tasks, notes, folders and a calendar in one place.</p>
-      <p><b>Commercial product · In development</b><br/>Private source · Kotlin · Compose · Room · Glance</p>
-      <p align="center"><a href="assets/chatevent.webp"><img src="assets/chatevent.webp" width="180" alt="Chatevent Android screenshot: chats, folders and upcoming tasks, with demonstration data." /></a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>WordNote</h3>
-      <p>Notes, tasks and reminders with English voice input, OCR and date/time extraction.</p>
-      <p><b>Historical graduation project · Huawei Cup 2020 APP student winner</b><br/>Ivanovo State Power Engineering University · Kotlin / Java · SQLite · Huawei HMS</p>
-      <p align="center"><a href="assets/wordnote.webp"><img src="assets/wordnote.webp" width="225" alt="WordNote Android screenshot: task lists and reminders." /></a></p>
-      <p><a href="https://github.com/Alox1d/wordnote">Source code ↗</a> · <a href="https://appgallery.huawei.com/app/C103198375">AppGallery ↗</a> · <a href="https://www.youtube.com/watch?v=rDJz7HMdjpE">Video demo ↗</a></p>
-    </td>
-  </tr>
-</table>
+#### Chatevent
+
+A chat-shaped planner: tasks, notes, folders and a calendar in one place.
+
+**Commercial product · In development**  
+Private source · Kotlin · Compose · Room · Glance
+
+<p align="center"><a href="assets/chatevent.webp"><img src="assets/chatevent.webp" width="180" alt="Chatevent Android screenshot: chats, folders and upcoming tasks, with demonstration data." /></a></p>
+
+#### WordNote
+
+Notes, tasks and reminders with English voice input, OCR and date/time extraction.
+
+**Historical graduation project · Huawei Cup 2020 APP student winner**  
+Ivanovo State Power Engineering University · Kotlin / Java · SQLite · Huawei HMS
+
+<p align="center"><a href="assets/wordnote.webp"><img src="assets/wordnote.webp" width="225" alt="WordNote Android screenshot: task lists and reminders." /></a></p>
+
+[Source code ↗](https://github.com/Alox1d/wordnote) · [AppGallery ↗](https://appgallery.huawei.com/app/C103198375) · [Video demo ↗](https://www.youtube.com/watch?v=rDJz7HMdjpE)
 
 ### Writing & milestones
 
@@ -43,34 +45,33 @@ Android developer working with **Kotlin**, **Jetpack Compose** and the details t
 
 ### Open-source tools
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Alox1d/dateparser"><img src="https://raw.githubusercontent.com/Alox1d/dateparser/main/assets/poster.png" width="100%" alt="DateParser - words become dates" /></a>
-      <h3><a href="https://github.com/Alox1d/dateparser">DateParser ↗</a></h3>
-      <p>Russian and English reminder text into dates and times. My Kotlin / Android port of Alexey Orazov's date-parser.</p>
-      <p>MIT · 16 regression tests · Android library and demo</p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Alox1d/PCBCalc"><img src="https://raw.githubusercontent.com/Alox1d/PCBCalc/main/assets/poster.png" width="100%" alt="PCBCalc - circuits meet mechanics" /></a>
-      <h3><a href="https://github.com/Alox1d/PCBCalc">PCBCalc ↗</a></h3>
-      <p>My 2018 graduation project at Ivanovo Energy College: educational PCB vibration and reliability calculations, with Word export.</p>
-      <p>Java · 7 calculation/export tests · Original report templates</p>
-    </td>
-  </tr>
-</table>
+#### [DateParser ↗](https://github.com/Alox1d/dateparser)
 
-I also built [**ActSigner**](https://github.com/Alox1d/act-signer), a Windows PowerShell GUI for batch signing service acceptance PDFs with CryptoPro. It creates detached CAdES-BES signatures without changing the PDFs.
+<p align="center"><a href="https://github.com/Alox1d/dateparser"><img src="https://raw.githubusercontent.com/Alox1d/dateparser/main/assets/poster.png" width="400" alt="DateParser - words become dates" /></a></p>
+
+Russian and English reminder text into dates and times. My Kotlin / Android port of Alexey Orazov's date-parser.
+
+MIT · 16 regression tests · Android library and demo
+
+#### [PCBCalc ↗](https://github.com/Alox1d/PCBCalc)
+
+<p align="center"><a href="https://github.com/Alox1d/PCBCalc"><img src="https://raw.githubusercontent.com/Alox1d/PCBCalc/main/assets/poster.png" width="400" alt="PCBCalc - circuits meet mechanics" /></a></p>
+
+My 2018 graduation project at Ivanovo Energy College: educational PCB vibration and reliability calculations, with Word export.
+
+Java · 7 calculation/export tests · Original report templates
+
+#### [ActSigner ↗](https://github.com/Alox1d/act-signer)
+
+A Windows PowerShell GUI for batch signing service acceptance PDFs with CryptoPro. It creates detached CAdES-BES signatures without changing the PDFs.
 
 ### Public Android samples
 
 Small Android samples and experiments, from custom drawing to voice recording.
 
-| Repository | What's inside |
-| :--- | :--- |
-| [vkvoicenotes](https://github.com/Alox1d/vkvoicenotes) | Voice recording and playback with Android Views, Room, Dagger, RxJava and ExoPlayer. |
-| [CustomViewTest](https://github.com/Alox1d/CustomViewTest) | Custom Android Views: Canvas drawing, bitmap shaders, XML attributes and saved state. |
-| [AndroidCore](https://github.com/Alox1d/AndroidCore) | Java/Kotlin fundamentals, concurrency, collections, Coroutines/Flow and Handler/Looper experiments. |
+- [**vkvoicenotes**](https://github.com/Alox1d/vkvoicenotes) - Voice recording and playback with Android Views, Room, Dagger, RxJava and ExoPlayer.
+- [**CustomViewTest**](https://github.com/Alox1d/CustomViewTest) - Custom Android Views: Canvas drawing, bitmap shaders, XML attributes and saved state.
+- [**AndroidCore**](https://github.com/Alox1d/AndroidCore) - Java/Kotlin fundamentals, concurrency, collections, Coroutines/Flow and Handler/Looper experiments.
 
 ### Course-based learning
 
