@@ -53,6 +53,8 @@ Offline Russian and English date/time parsing for Android, JVM and iOS. My Kotli
 
 MIT · Kotlin Multiplatform · Android / JVM / iOS
 
+[Release 0.1.0 ↗](https://github.com/Alox1d/dateparser-kotlin/releases/tag/v0.1.0) · [Maven Central ↗](https://central.sonatype.com/artifact/io.github.alox1d/dateparser-kotlin/0.1.0)
+
 #### [PCBCalc ↗](https://github.com/Alox1d/PCBCalc)
 
 <p align="center"><a href="https://github.com/Alox1d/PCBCalc"><img src="https://raw.githubusercontent.com/Alox1d/PCBCalc/main/assets/poster.png" width="400" alt="PCBCalc - circuits meet mechanics" /></a></p>
