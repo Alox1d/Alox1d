@@ -45,13 +45,13 @@ Ivanovo State Power Engineering University · Kotlin / Java · SQLite · Huawei 
 
 ### Open-source tools
 
-#### [DateParser ↗](https://github.com/Alox1d/dateparser)
+#### [DateParser Kotlin ↗](https://github.com/Alox1d/dateparser-kotlin)
 
-<p align="center"><a href="https://github.com/Alox1d/dateparser"><img src="https://raw.githubusercontent.com/Alox1d/dateparser/main/assets/poster.png" width="400" alt="DateParser - words become dates" /></a></p>
+<p align="center"><a href="https://github.com/Alox1d/dateparser-kotlin"><img src="https://raw.githubusercontent.com/Alox1d/dateparser-kotlin/main/assets/poster.png" width="400" alt="DateParser - words become dates" /></a></p>
 
-Russian and English reminder text into dates and times. My Kotlin / Android port of Alexey Orazov's date-parser.
+Offline Russian and English date/time parsing for Android, JVM and iOS. My Kotlin Multiplatform adaptation of Alexey Orazov's date-parser.
 
-MIT · 16 regression tests · Android library and demo
+MIT · Kotlin Multiplatform · Android / JVM / iOS
 
 #### [PCBCalc ↗](https://github.com/Alox1d/PCBCalc)
 
