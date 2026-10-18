@@ -1,12 +1,13 @@
 <img src="assets/banner-en.svg" width="100%" alt="A/B Apps - Alexander Baranov. Android. Attention to detail." />
 
-Android developer working with **Kotlin**, **Jetpack Compose** and the details that make an app feel right.
+Android developer working with **Kotlin**, **Jetpack Compose**, **Kotlin Multiplatform** and the details that make an app feel right.
 
 - **Now:** Android fintech at **Wildberries** - installment payments, financial calculations and reliable UI state.
 - **Previously:** **VK ID** - authentication flows and Android integration.
+- **Open source:** [**DateParser Kotlin**](https://github.com/Alox1d/dateparser-kotlin), an offline date/time parser published on Maven Central.
 - **On my workbench:** **Chatevent**, a commercial planner where tasks live in chats.
 
-`Kotlin` · `Java` · `Jetpack Compose` · `Coroutines / Flow` · `Room` · `Android SDK`
+`Kotlin` · `Java` · `Jetpack Compose` · `Kotlin Multiplatform` · `Coroutines / Flow` · `Room` · `Android SDK`
 
 <p align="center">
   <a href="https://t.me/Alox1d"><b>Telegram ↗</b></a>
@@ -15,6 +16,20 @@ Android developer working with **Kotlin**, **Jetpack Compose** and the details t
   &nbsp; · &nbsp;
   <a href="https://habr.com/ru/companies/vk/articles/780194/"><b>My VK ID article ↗</b></a>
 </p>
+
+### [DateParser Kotlin ↗](https://github.com/Alox1d/dateparser-kotlin)
+
+*Offline natural-language date and time parsing for Kotlin Multiplatform.*
+
+English and Russian · Android, JVM and iOS.
+
+[Latest release ↗](https://github.com/Alox1d/dateparser-kotlin/releases/latest) · [Maven Central ↗](https://central.sonatype.com/artifact/io.github.alox1d/dateparser-kotlin) · [Documentation ↗](https://alox1d.github.io/dateparser-kotlin/) · [KMP demo ↗](https://alox1d.github.io/dateparser-kotlin/en/kmp-reminder-demo/)
+
+<p align="center"><a href="https://github.com/Alox1d/dateparser-kotlin"><img src="assets/dateparser.png" width="400" alt="DateParser Kotlin - words become dates" /></a></p>
+
+Use the shared parser in `commonMain` with explicit timezones and US/European date order. The runnable KMP consumer and Android Compose demo show an editable reminder preview before confirmation.
+
+My Kotlin Multiplatform adaptation of Alexey Orazov's date-parser. MIT.
 
 ### Apps
 
@@ -45,27 +60,19 @@ Ivanovo State Power Engineering University · Kotlin / Java · SQLite · Huawei 
 
 ### Open-source tools
 
-#### [DateParser Kotlin ↗](https://github.com/Alox1d/dateparser-kotlin)
+#### [CSPSigner ↗](https://github.com/Alox1d/act-signer)
 
-<p align="center"><a href="https://github.com/Alox1d/dateparser-kotlin"><img src="https://raw.githubusercontent.com/Alox1d/dateparser-kotlin/main/assets/poster.png" width="400" alt="DateParser - words become dates" /></a></p>
+A Windows PowerShell desktop tool for batch signing files with CryptoPro CSP. Creates detached CAdES-BES signatures without changing the source files, verifies signatures, and avoids signing the same file twice with the selected certificate.
 
-Offline English and Russian date/time parsing for Android, JVM and iOS. My Kotlin Multiplatform adaptation of Alexey Orazov's date-parser.
-
-MIT · Kotlin Multiplatform · Android / JVM / iOS
-
-[Release 0.1.1 ↗](https://github.com/Alox1d/dateparser-kotlin/releases/tag/v0.1.1) · [Maven Central ↗](https://central.sonatype.com/artifact/io.github.alox1d/dateparser-kotlin/0.1.1)
+[Download latest release ↗](https://github.com/Alox1d/act-signer/releases/latest) · [Documentation (EN) ↗](https://github.com/Alox1d/act-signer/blob/main/README.en.md)
 
 #### [PCBCalc ↗](https://github.com/Alox1d/PCBCalc)
 
-<p align="center"><a href="https://github.com/Alox1d/PCBCalc"><img src="https://raw.githubusercontent.com/Alox1d/PCBCalc/main/assets/poster.png" width="400" alt="PCBCalc - circuits meet mechanics" /></a></p>
+<p align="center"><a href="https://github.com/Alox1d/PCBCalc"><img src="assets/pcbcalc.png" width="400" alt="PCBCalc - circuits meet mechanics" /></a></p>
 
 My 2018 graduation project at Ivanovo Energy College: educational PCB vibration and reliability calculations, with Word export.
 
 Java · 7 calculation/export tests · Original report templates
-
-#### [ActSigner ↗](https://github.com/Alox1d/act-signer)
-
-A Windows PowerShell GUI for batch signing service acceptance PDFs with CryptoPro. It creates detached CAdES-BES signatures without changing the PDFs.
 
 ### Public Android samples
 
