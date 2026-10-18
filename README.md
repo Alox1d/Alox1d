@@ -1,5 +1,12 @@
 <img src="assets/banner-en.svg" width="100%" alt="A/B Apps - Alexander Baranov. Android. Attention to detail." />
 
+<p align="center">
+  <a href="https://kotlinlang.org/docs/home.html"><img src="assets/badges/kotlin.svg" alt="Kotlin" height="28" /></a>
+  <a href="https://developer.android.com/"><img src="assets/badges/android.svg" alt="Android" height="28" /></a>
+  <a href="https://developer.android.com/compose"><img src="assets/badges/compose.svg" alt="Jetpack Compose" height="28" /></a>
+  <a href="https://www.jetbrains.com/kotlin-multiplatform/"><img src="assets/badges/kmp.svg" alt="Kotlin Multiplatform" height="28" /></a>
+</p>
+
 Android developer working with **Kotlin**, **Jetpack Compose**, **Kotlin Multiplatform** and the details that make an app feel right.
 
 - **Now:** Android fintech at **Wildberries** - installment payments, financial calculations and reliable UI state.
@@ -7,7 +14,7 @@ Android developer working with **Kotlin**, **Jetpack Compose**, **Kotlin Multipl
 - **Open source:** [**DateParser Kotlin**](https://github.com/Alox1d/dateparser-kotlin), an offline date/time parser published on Maven Central.
 - **On my workbench:** **Chatevent**, a commercial planner where tasks live in chats.
 
-`Kotlin` · `Java` · `Jetpack Compose` · `Kotlin Multiplatform` · `Coroutines / Flow` · `Room` · `Android SDK`
+`Java` · `Coroutines / Flow` · `Room`
 
 <p align="center">
   <a href="https://t.me/Alox1d"><b>Telegram ↗</b></a>
@@ -23,13 +30,15 @@ Android developer working with **Kotlin**, **Jetpack Compose**, **Kotlin Multipl
 
 English and Russian · Android, JVM and iOS.
 
-[Latest release ↗](https://github.com/Alox1d/dateparser-kotlin/releases/latest) · [Maven Central ↗](https://central.sonatype.com/artifact/io.github.alox1d/dateparser-kotlin) · [Documentation ↗](https://alox1d.github.io/dateparser-kotlin/) · [KMP demo ↗](https://alox1d.github.io/dateparser-kotlin/en/kmp-reminder-demo/)
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.alox1d/dateparser-kotlin?strategy=releaseProperty&style=for-the-badge&label=Maven%20Central&color=7928CA)](https://central.sonatype.com/artifact/io.github.alox1d/dateparser-kotlin)
+[![CI main](https://img.shields.io/github/actions/workflow/status/Alox1d/dateparser-kotlin/ci.yml?branch=main&event=push&style=for-the-badge&label=CI%20main&color=7928CA)](https://github.com/Alox1d/dateparser-kotlin/actions/workflows/ci.yml?query=branch%3Amain%20event%3Apush)
+[![MIT license](https://img.shields.io/github/license/Alox1d/dateparser-kotlin?style=for-the-badge&label=License&color=7928CA)](https://github.com/Alox1d/dateparser-kotlin/blob/main/LICENSE)
+
+[Latest release ↗](https://github.com/Alox1d/dateparser-kotlin/releases/latest) · [Documentation ↗](https://alox1d.github.io/dateparser-kotlin/) · [KMP demo ↗](https://alox1d.github.io/dateparser-kotlin/en/kmp-reminder-demo/)
 
 <p align="center"><a href="https://github.com/Alox1d/dateparser-kotlin"><img src="assets/dateparser.png" width="400" alt="DateParser Kotlin - words become dates" /></a></p>
 
 Use the shared parser in `commonMain` with explicit timezones and US/European date order. The runnable KMP consumer and Android Compose demo show an editable reminder preview before confirmation.
-
-My Kotlin Multiplatform adaptation of Alexey Orazov's date-parser. MIT.
 
 ### Apps
 
