@@ -34,11 +34,17 @@ English and Russian · Android, JVM and iOS.
 [![CI main](https://img.shields.io/github/actions/workflow/status/Alox1d/dateparser-kotlin/ci.yml?branch=main&event=push&style=for-the-badge&label=CI%20main&color=7928CA)](https://github.com/Alox1d/dateparser-kotlin/actions/workflows/ci.yml?query=branch%3Amain%20event%3Apush)
 [![MIT license](https://img.shields.io/github/license/Alox1d/dateparser-kotlin?style=for-the-badge&label=License&color=7928CA)](https://github.com/Alox1d/dateparser-kotlin/blob/main/LICENSE)
 
-[Latest release ↗](https://github.com/Alox1d/dateparser-kotlin/releases/latest) · [Documentation ↗](https://alox1d.github.io/dateparser-kotlin/) · [KMP demo ↗](https://alox1d.github.io/dateparser-kotlin/en/kmp-reminder-demo/)
+[Latest release ↗](https://github.com/Alox1d/dateparser-kotlin/releases/latest) · [Documentation ↗](https://alox1d.github.io/dateparser-kotlin/en/) · [KMP demo ↗](https://alox1d.github.io/dateparser-kotlin/en/kmp-reminder-demo/) · [klibs.io ↗](https://klibs.io/project/Alox1d/dateparser-kotlin)
 
-<p align="center"><a href="https://github.com/Alox1d/dateparser-kotlin"><img src="assets/dateparser.png" width="400" alt="DateParser Kotlin - words become dates" /></a></p>
+**`Buy milk tomorrow at 7pm` → `Buy milk` + tomorrow at 19:00.**
 
-Use the shared parser in `commonMain` with explicit timezones and US/European date order. The runnable KMP consumer and Android Compose demo show an editable reminder preview before confirmation.
+<p align="center">
+  <a href="https://github.com/Alox1d/dateparser-kotlin"><img src="assets/dateparser-reminder-preview.png" width="220" alt="DateParser Kotlin Android demo: review the extracted reminder title, date and time." /></a>
+  &nbsp;
+  <a href="https://github.com/Alox1d/dateparser-kotlin"><img src="assets/dateparser-reminder-saved.png" width="220" alt="DateParser Kotlin Android demo: edited and confirmed reminder in the session-only list." /></a>
+</p>
+
+Use it in `commonMain` with a reference instant, an explicit timezone and US/European date order. The runnable KMP consumer and Android Compose demo show how to review and edit the result before saving. No API keys or network calls.
 
 ### Apps
 
