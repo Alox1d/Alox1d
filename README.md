@@ -39,9 +39,7 @@ English and Russian · Android, JVM and iOS.
 **`Buy milk tomorrow at 7pm` → `Buy milk` + tomorrow at 19:00.**
 
 <p align="center">
-  <a href="https://github.com/Alox1d/dateparser-kotlin"><img src="assets/dateparser-reminder-preview.png" width="220" alt="DateParser Kotlin Android demo: review the extracted reminder title, date and time." /></a>
-  &nbsp;
-  <a href="https://github.com/Alox1d/dateparser-kotlin"><img src="assets/dateparser-reminder-saved.png" width="220" alt="DateParser Kotlin Android demo: edited and confirmed reminder in the session-only list." /></a>
+  <a href="https://github.com/Alox1d/dateparser-kotlin"><img src="assets/dateparser-reminder-demo.gif" width="440" alt="DateParser Kotlin Android demo: type a phrase, review the extracted title and time, then confirm the reminder." /></a>
 </p>
 
 Use it in `commonMain` with a reference instant, an explicit timezone and US/European date order. The runnable KMP consumer and Android Compose demo show how to review and edit the result before saving. No API keys or network calls.
@@ -55,7 +53,7 @@ A chat-shaped planner: tasks, notes, folders and a calendar in one place.
 **Commercial product · In development**  
 Private source · Kotlin · Compose · Room · Glance
 
-<p align="center"><a href="assets/chatevent.webp"><img src="assets/chatevent.webp" width="180" alt="Chatevent Android screenshot: chats, folders and upcoming tasks, with demonstration data." /></a></p>
+<p align="center"><a href="assets/chatevent-framed.webp"><img src="assets/chatevent-framed.webp" width="280" alt="Chatevent Android screenshot: chats, folders and upcoming tasks, with demonstration data." /></a></p>
 
 #### WordNote
 
@@ -64,7 +62,7 @@ Notes, tasks and reminders with English voice input, OCR and date/time extractio
 **Historical graduation project · Huawei Cup 2020 APP student winner**  
 Ivanovo State Power Engineering University · Kotlin / Java · SQLite · Huawei HMS
 
-<p align="center"><a href="assets/wordnote.webp"><img src="assets/wordnote.webp" width="225" alt="WordNote Android screenshot: task lists and reminders." /></a></p>
+<p align="center"><a href="assets/wordnote-framed.webp"><img src="assets/wordnote-framed.webp" width="280" alt="WordNote Android screenshot: task lists and reminders." /></a></p>
 
 [Source code ↗](https://github.com/Alox1d/wordnote) · [AppGallery ↗](https://appgallery.huawei.com/app/C103198375) · [Video demo ↗](https://www.youtube.com/watch?v=rDJz7HMdjpE)
 
