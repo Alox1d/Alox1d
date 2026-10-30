@@ -44,6 +44,18 @@ English and Russian · Android, JVM and iOS.
 
 Use it in `commonMain` with a reference instant, an explicit timezone and US/European date order. The runnable KMP consumer and Android Compose demo show how to review and edit the result before saving. No API keys or network calls.
 
+### Upstream contributions
+
+Selected pull requests. Status checked on **October 30, 2026**; each link shows the current review state.
+
+| Project | Change | Status |
+| --- | --- | --- |
+| [Koin #2476](https://github.com/InsertKoinIO/koin/pull/2476) | Allow replacing a parameter with `null`, with regression tests for parameter storage and injection. | Open PR |
+| [Kotlin Telegram Bot #373](https://github.com/kotlin-telegram-bot/kotlin-telegram-bot/pull/373) | Deserialize invite-link API responses as `ChatInviteLink`, with integration tests for create, edit and revoke. | Open PR |
+| [Kotlin Telegram Bot #374](https://github.com/kotlin-telegram-bot/kotlin-telegram-bot/pull/374) | Support game callbacks without callback data, with parsing and dispatch tests. [Case study](docs/kotlin-telegram-bot-callbacks.md). | Open PR |
+| [Telegram Desktop #31523](https://github.com/telegramdesktop/tdesktop/pull/31523) | Enable Markdown and slash shortcuts inside article toggles. Full application build and UI verification are pending. | Draft PR |
+| [awesome-kotlin #1204](https://github.com/Heapy/awesome-kotlin/pull/1204) | Add DateParser Kotlin to the library catalogue. | Merged catalogue entry |
+
 ### Apps
 
 #### Chatevent
