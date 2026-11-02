@@ -49,22 +49,14 @@ Use it in `commonMain` with a reference instant, an explicit timezone and US/Eur
 ### Engineering case studies
 
 - [**DateParser Kotlin: cross-platform parsing and CI**](docs/dateparser-cross-platform.md) - offline date parsing, explicit time semantics, Maven publishing and independent JVM/Android/iOS checks.
-- [**Kotlin CSV: UTF-8 corruption at a buffer boundary**](docs/kotlin-csv-surrogate-boundary.md) - a minimal surrogate-pair regression, focused fix and test coverage; upstream PR under review.
-- [**Telegram callback handling**](docs/kotlin-telegram-bot-callbacks.md) - API compatibility and dispatch regressions for game callbacks; upstream PR under review.
+- [**Kotlin CSV: UTF-8 corruption at a buffer boundary**](docs/kotlin-csv-surrogate-boundary.md) - a minimal surrogate-pair regression, focused fix and test coverage.
+- [**Telegram callback handling**](docs/kotlin-telegram-bot-callbacks.md) - API compatibility and dispatch regressions for game callbacks.
 
-### Upstream contributions
+### Merged upstream contribution
 
-Selected pull requests. Status checked on **November 2, 2026**; each link shows the current review state.
+- [**awesome-kotlin #1204**](https://github.com/Heapy/awesome-kotlin/pull/1204) - added DateParser Kotlin to the curated library catalogue (merged October 30, 2026; catalogue entry, not a code change).
 
-| Project | Change | Status |
-| --- | --- | --- |
-| [Koin #2476](https://github.com/InsertKoinIO/koin/pull/2476) | Allow replacing a parameter with `null`, with regression tests for parameter storage and injection. | Open PR |
-| [Kotlin Telegram Bot #373](https://github.com/kotlin-telegram-bot/kotlin-telegram-bot/pull/373) | Deserialize invite-link API responses as `ChatInviteLink`, with integration tests for create, edit and revoke. | Open PR |
-| [Kotlin Telegram Bot #374](https://github.com/kotlin-telegram-bot/kotlin-telegram-bot/pull/374) | Support game callbacks without callback data, with parsing and dispatch tests. [Case study](docs/kotlin-telegram-bot-callbacks.md). | Open PR |
-| [kotlin-csv #189](https://github.com/jsoizo/kotlin-csv/pull/189) | Preserve supplementary Unicode characters when a UTF-8 flush splits surrogate pairs. [Case study](docs/kotlin-csv-surrogate-boundary.md). | Open PR |
-| [ktoml #399](https://github.com/orchestr7/ktoml/pull/399) | Reject malformed integer literals with regression cases from the TOML test suite. | Open PR |
-| [Telegram Desktop #31523](https://github.com/telegramdesktop/tdesktop/pull/31523) | Enable Markdown and slash shortcuts inside article toggles. Full application build and UI verification are pending. | Draft PR |
-| [awesome-kotlin #1204](https://github.com/Heapy/awesome-kotlin/pull/1204) | Add DateParser Kotlin to the library catalogue. | Merged catalogue entry |
+Other engineering changes and their current review status are documented in the [upstream contribution log](docs/upstream-contributions.md). Open and draft PRs are not listed as accepted work.
 
 ### Apps
 
