@@ -9,6 +9,8 @@
 
 Android developer working with **Kotlin**, **Jetpack Compose**, **Kotlin Multiplatform** and the details that make an app feel right.
 
+Open to conversations about **senior Android / Kotlin Multiplatform roles**, especially fintech payments, developer tooling and platform engineering. [Get in touch on Telegram](https://t.me/Alox1d).
+
 - **Now:** Android fintech at **Wildberries** - installment payments, financial calculations and reliable UI state.
 - **Previously:** **VK ID** - authentication flows and Android integration.
 - **Open source:** [**DateParser Kotlin**](https://github.com/Alox1d/dateparser-kotlin), an offline date/time parser published on Maven Central.
@@ -44,15 +46,23 @@ English and Russian · Android, JVM and iOS.
 
 Use it in `commonMain` with a reference instant, an explicit timezone and US/European date order. The runnable KMP consumer and Android Compose demo show how to review and edit the result before saving. No API keys or network calls.
 
+### Engineering case studies
+
+- [**DateParser Kotlin: cross-platform parsing and CI**](docs/dateparser-cross-platform.md) - offline date parsing, explicit time semantics, Maven publishing and independent JVM/Android/iOS checks.
+- [**Kotlin CSV: UTF-8 corruption at a buffer boundary**](docs/kotlin-csv-surrogate-boundary.md) - a minimal surrogate-pair regression, focused fix and test coverage; upstream PR under review.
+- [**Telegram callback handling**](docs/kotlin-telegram-bot-callbacks.md) - API compatibility and dispatch regressions for game callbacks; upstream PR under review.
+
 ### Upstream contributions
 
-Selected pull requests. Status checked on **October 30, 2026**; each link shows the current review state.
+Selected pull requests. Status checked on **November 2, 2026**; each link shows the current review state.
 
 | Project | Change | Status |
 | --- | --- | --- |
 | [Koin #2476](https://github.com/InsertKoinIO/koin/pull/2476) | Allow replacing a parameter with `null`, with regression tests for parameter storage and injection. | Open PR |
 | [Kotlin Telegram Bot #373](https://github.com/kotlin-telegram-bot/kotlin-telegram-bot/pull/373) | Deserialize invite-link API responses as `ChatInviteLink`, with integration tests for create, edit and revoke. | Open PR |
 | [Kotlin Telegram Bot #374](https://github.com/kotlin-telegram-bot/kotlin-telegram-bot/pull/374) | Support game callbacks without callback data, with parsing and dispatch tests. [Case study](docs/kotlin-telegram-bot-callbacks.md). | Open PR |
+| [kotlin-csv #189](https://github.com/jsoizo/kotlin-csv/pull/189) | Preserve supplementary Unicode characters when a UTF-8 flush splits surrogate pairs. [Case study](docs/kotlin-csv-surrogate-boundary.md). | Open PR |
+| [ktoml #399](https://github.com/orchestr7/ktoml/pull/399) | Reject malformed integer literals with regression cases from the TOML test suite. | Open PR |
 | [Telegram Desktop #31523](https://github.com/telegramdesktop/tdesktop/pull/31523) | Enable Markdown and slash shortcuts inside article toggles. Full application build and UI verification are pending. | Draft PR |
 | [awesome-kotlin #1204](https://github.com/Heapy/awesome-kotlin/pull/1204) | Add DateParser Kotlin to the library catalogue. | Merged catalogue entry |
 
