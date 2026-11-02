@@ -56,4 +56,3 @@ bash "$GRADLE_83/bin/gradle" \
 ```
 
 The run retained existing compiler and deprecation warnings. These are local cloud build results; upstream GitHub Actions and maintainer review are separate.
-
