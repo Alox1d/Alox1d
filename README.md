@@ -38,6 +38,8 @@ English and Russian · Android, JVM and iOS.
 
 [Latest release ↗](https://github.com/Alox1d/dateparser-kotlin/releases/latest) · [Documentation ↗](https://alox1d.github.io/dateparser-kotlin/en/) · [KMP demo ↗](https://alox1d.github.io/dateparser-kotlin/en/kmp-reminder-demo/) · [klibs.io ↗](https://klibs.io/project/Alox1d/dateparser-kotlin)
 
+Featured in [Kotlin Weekly #535](https://mailchi.mp/kotlinweekly/kotlin-weekly-535) (November 1, 2026): [offline KMP reminder walkthrough](https://alox1d.github.io/dateparser-kotlin/en/kmp-reminder-demo/).
+
 **`Buy milk tomorrow at 7pm` → `Buy milk` + tomorrow at 19:00.**
 
 <p align="center">
