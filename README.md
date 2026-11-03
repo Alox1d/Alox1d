@@ -52,9 +52,10 @@ Use it in `commonMain` with a reference instant, an explicit timezone and US/Eur
 - [**Kotlin CSV: UTF-8 corruption at a buffer boundary**](docs/kotlin-csv-surrogate-boundary.md) - a minimal surrogate-pair regression, focused fix and test coverage.
 - [**Telegram callback handling**](docs/kotlin-telegram-bot-callbacks.md) - API compatibility and dispatch regressions for game callbacks.
 
-### Merged upstream contribution
+### Merged upstream contributions
 
 - [**awesome-kotlin #1204**](https://github.com/Heapy/awesome-kotlin/pull/1204) - added DateParser Kotlin to the curated library catalogue (merged October 30, 2026; catalogue entry, not a code change).
+- [**fast-compose #2**](https://github.com/fast-compose/fast-compose/pull/2) - preserved mixed named and positional argument order throughout the Kotlin/Compose interpreter (merged November 3, 2026; 19 focused regressions).
 
 Other engineering changes and their current review status are documented in the [upstream contribution log](docs/upstream-contributions.md). Open and draft PRs are not listed as accepted work.
 
