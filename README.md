@@ -58,6 +58,8 @@ Use it in `commonMain` with a reference instant, an explicit timezone and US/Eur
 
 - [**awesome-kotlin #1204**](https://github.com/Heapy/awesome-kotlin/pull/1204) - added DateParser Kotlin to the curated library catalogue (merged October 30, 2026; catalogue entry, not a code change).
 - [**fast-compose #2**](https://github.com/fast-compose/fast-compose/pull/2) - preserved mixed named and positional argument order throughout the Kotlin/Compose interpreter (merged November 3, 2026; 19 focused regressions).
+- [**nemo-editor #38**](https://github.com/Ma7moud3ly/nemo-editor/pull/38) - preserved Kotlin identifiers that begin with keywords in the formatter (merged November 3, 2026).
+- [**biweekly #136**](https://github.com/mangstadt/biweekly/pull/136) - used a 24-hour clock for timezone observance boundaries (merged November 3, 2026).
 
 Other engineering changes and their current review status are documented in the [upstream contribution log](docs/upstream-contributions.md). Open and draft PRs are not listed as accepted work.
 
